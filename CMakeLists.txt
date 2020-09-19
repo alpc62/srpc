@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.6)
 
 set(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING "build type")
 if (WIN32)
-	set (CMAKE_INSTALL_PREFIX "C:\Program Files\\" CACHE PATH "install prefix")
+	set (CMAKE_INSTALL_PREFIX "C:\\Program Files\\" CACHE PATH "install prefix")
 elseif (APPLE)
 	set(CMAKE_INSTALL_PREFIX "/Applications/" CACHE PATH "install prefix")
 else ()
